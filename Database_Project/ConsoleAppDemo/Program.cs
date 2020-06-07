@@ -43,7 +43,7 @@
                         int affected = command.ExecuteNonQueryAsync().Result;
                         if (affected != 0)
                             transaction.Commit();
-                        Console.WriteLine($"Commited at: {DateTime.Now.ToShortTimeString()} successfull..\n" +
+                        Console.WriteLine($"Commited at: {DateTime.Now.ToShortTimeString()} connection is successfull..\n" +
                                           $"affected: {affected}"); // info
                     }
                     catch (Exception)
