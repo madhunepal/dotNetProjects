@@ -31,9 +31,9 @@
                     }
 
                     Console.WriteLine("Select close.. press enter..");
-                    // Delay !
+                    // Delay process !
                     Console.Read();
-                    // INSERT command..
+                    // INSERT command in your way..
                     command.CommandText = "INSERT INTO Users(FirstName, LastName) Values" +
                                           $"('{Console.ReadLine()}'" +
                                           $",'{Console.ReadLine()}')";
@@ -49,7 +49,7 @@
                     catch (Exception)
                     {
                         transaction.Rollback();
-                        Console.WriteLine("Rolled back..!");
+                        Console.WriteLine("Rolled back the process..!");
                     }
                 }
             }
