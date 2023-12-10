@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Narek-PC\Source\Repos\ASP.NET\Entity_Framework_6_0\Entity_Framework\Books.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\madbo\Source\Repos\dotNetProjects\Entity_Framework_6_0\Entity_Framework\Books.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
